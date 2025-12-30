@@ -1,27 +1,9 @@
-# complete console-based E-Commerce app in C++
+# How it works:
 
-Features:
+1. make → runs the setup target by default.
 
-1. View products
+2. Installs packages you might need (git, vim, zsh, etc.).
 
-2. Add products to cart
+3. Clones or updates your dotfiles repo and links config files.
 
-3. View cart with quantities combined
-
-4. Remove products from cart
-
-5. Checkout with total price
-
-6. Handle invalid inputs
-
-# How to Run
-
-1. Open Terminal.
-2. Compile the program using g++
-```
-g++ -o ecommerce ecommerce.cpp
-```
-3. Run the program:
-```
-./ecommerce
-```
+4. Applies some example system tweaks (like enabling SSH).
